@@ -2,7 +2,29 @@ body {
     background-color: black;
 }
 .logo {
-    width: 100%;
+    max-width: 100%;
     background-color: #365e7d;
     text-align: center;
+}
+nav {
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.menuitem {
+    display: inline;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 0.5%, 2%, 0.5%, 2%;    
+    margin-right: 3%;  
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: lightblue;
+    
 }
