@@ -16,8 +16,7 @@ nav {
 .menuitem {
     display: inline;
     font-weight: bold;
-    font-size: 200%;
-    padding: 0.5%, 2%, 0.5%, 2%;    
+    font-size: 200%;    
     margin-right: 3%;  
 }
 a:link, a:visited {
@@ -25,6 +24,20 @@ a:link, a:visited {
     text-decoration: none;
 }
 a:hover, a:focus {
-    color: lightblue;
-    
+    color: lightblue;    
+}
+.icons {
+    max-width: 100%;
+    background-color: #365e7d;
+    text-align: center;
+    margin: auto;
+}
+#github {
+    padding-right: 2%;
+}
+footer {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
 }
