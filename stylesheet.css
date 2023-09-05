@@ -32,8 +32,24 @@ a:link, a:visited {
 a:hover, a:focus {
     color: lightblue;    
 }
+#ommig {
+    background-color: #365e7d;
+    margin: 2px;
+    width: 60.9%;
+    padding: 2%;
+    float: left;
+}
+#cvpicbox {
+    width: 30.9%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+#cvpic {
+    padding: 10%;
+}
 .icons {
-    max-width: 100%;
+    width: 100%;
     background-color: #365e7d;
     text-align: center;
     margin: auto;
@@ -42,6 +58,7 @@ a:hover, a:focus {
     padding-right: 2%;
 }
 footer {
+    width: 100%;
     color: white;
     text-align: center;
     margin: auto;
