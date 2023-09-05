@@ -34,7 +34,7 @@ a:hover, a:focus {
 }
 #ommig {
     background-color: #365e7d;
-    margin: 2px;
+    margin: 2%;
     width: 60.9%;
     padding: 2%;
     float: left;
@@ -44,15 +44,43 @@ a:hover, a:focus {
     margin: auto;
     float: left;
     text-align: center;
+    clear: right;
 }
 #cvpic {
     padding: 10%;
+    max-width: 100%;
+}
+#kodpicbox {
+    width: 40.9%;
+    margin: auto;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+#kodpic {
+    padding: 5%;
+    max-width: 100%;
+}
+#styrkorbox {
+    width: 50.9%;
+    float: left;
+    margin: auto;
+    padding: 2%;
+    background-color: #365e7d;
+    clear: right;
+}
+#styrkorlist {
+    text-align: left;
+}
+li {
+    color: white;
 }
 .icons {
     width: 100%;
     background-color: #365e7d;
     text-align: center;
     margin: auto;
+    float: left;
 }
 #github {
     padding-right: 2%;
@@ -62,5 +90,6 @@ footer {
     color: white;
     text-align: center;
     margin: auto;
-    padding-top: 1%;
+    padding: 1% 0 1% 0;
+    float: left;
 }
