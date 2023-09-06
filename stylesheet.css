@@ -190,6 +190,11 @@ footer {
   justify-content: space-around;
 }
 
+.interestsimages {
+  max-width: 90%;
+  overflow:auto;
+}
+
 #contactflex {
   display: -webkit-box;
   display: -webkit-flex;
