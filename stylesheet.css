@@ -1,6 +1,7 @@
 body {
-    background-color: black;
+  background-color: black;
 }
+
 .logobox {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13,10 +14,12 @@ body {
   justify-content: center;
   background-color: #365e7d;
 }
+
 .logopic {
   width: 275px;
   margin: auto;
 }
+
 #menu {
   display: -webkit-box;
   display: -webkit-flex;
@@ -28,31 +31,40 @@ body {
   -webkit-box-pack: space-around;
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 1% 0 1% 0;
   margin: 0;
   list-style: none;
-} 
+}
+
 .menuitem {
-   display: inline;
-   font-weight: bold;
-   font-size: 200%;   
+  display: inline;
+  font-weight: bold;
+  font-size: 200%;
 }
+
 h1 {
-    font-size: 250%;
-    color: white;
+  font-size: 250%;
+  color: white;
 }
+
 p {
-    color: white;
-    font-size: 24px;
+  color: white;
+  font-size: 24px;
 }
-a:link, a:visited {
-    color: white;
-    text-decoration: none;
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
 }
-a:hover, a:focus {
-    color: lightblue;    
+
+a:hover,
+a:focus {
+  color: lightblue;
 }
+
 #ommigflex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -64,86 +76,105 @@ a:hover, a:focus {
   -webkit-box-pack: space-around;
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   margin-bottom: 1%;
 }
+
 #ommig {
   background-color: #365e7d;
   padding: 2%;
+  -webkit-flex-basis: 60%;
+  -ms-flex: 0 1 60%;
   flex-basis: 60%;
   max-width: 100%;
-}  
+}
+
 #cvpicbox {
+  -webkit-flex-basis: 35%;
+  -ms-flex: 0 1 35%;
   flex-basis: 35%;
   max-width: 100%;
   margin: auto;
   text-align: center;
 }
+
 #kodflex {
-   display: -webkit-box;
-   display: -webkit-flex;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-flex-flow: row wrap;
-   -ms-flex-flow: row wrap;
-   flex-flow: row wrap;
-   -webkit-box-pack: space-around;
-   -webkit-justify-content: space-around;
-   -ms-flex-pack: space-around;
-   justify-content: space-around;
-   margin-bottom: 1%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 1%;
 }
-#kodpicbox {  
-    margin: auto;
-    text-align: center;
+
+#kodpicbox {
+  margin: auto;
+  text-align: center;
 }
+
 #styrkorbox {
-    flex-basis: 40%;
-    margin: 0;
-    padding: 2%;
-    background-color: #365e7d;
-    text-align: left;
+  -webkit-flex-basis: 40%;
+  -ms-flex: 0 1 40%;
+  flex-basis: 40%;
+  margin: 0;
+  padding: 2%;
+  background-color: #365e7d;
+  text-align: left;
 }
+
 #styrkorlist {
-    width: 80%;
-    text-align: left;
-    padding: 2px;
+  width: 80%;
+  text-align: left;
+  padding: 2px;
 }
+
 .listitems {
-    color: white;
-    font-size: large;
-    width: 97%;
-    text-align: left;
-    padding-bottom: 1%;
+  color: white;
+  font-size: large;
+  width: 97%;
+  text-align: left;
+  padding-bottom: 1%;
 }
+
 .iconsflex {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-bottom: 1%;
-    background-color: #365e7d;
-    text-align: center;
-    margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  background-color: #365e7d;
+  text-align: center;
+  margin: auto;
 }
+
 #github {
-    padding-right: 2%;
+  padding-right: 2%;
 }
+
 footer {
-    width: 100%;
-    color: white;
-    text-align: center;
-    margin: auto;
-    padding: 1% 0 1% 0;
-    float: left;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 1% 0 1% 0;
+  float: left;
 }
+
 #interestsflex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -155,9 +186,11 @@ footer {
   -webkit-box-pack: space-around;
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
-#contactflex{
+
+#contactflex {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -168,69 +201,85 @@ footer {
   -webkit-box-pack: space-around;
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   background-color: #365e7d;
   margin-bottom: 1%;
 }
+
 #contacthead {
   margin-bottom: 1%;
   background-color: #365e7d;
   text-align: center;
 }
+
 #contactlist {
   color: white;
-  list-style-type: none;
-  align-items: left;
   width: 30%;
 }
+
 fieldset {
   width: 100%;
-	margin: 3% 0 6% 0;
-	border: 3px solid black;
-	border-radius: 10px;
-	line-height: 1.6em; 
-	padding-top: 5%;
+  margin: 3% 0 6% 0;
+  border: 3px solid black;
+  border-radius: 10px;
+  line-height: 1.6em;
+  padding-top: 5%;
 }
+
 legend {
-	font-size: 120%;
-	color: white;
-	background-color: #365e7d;
-	border: 3px solid black; 
-	border-radius: 10px;
-	padding: 2% 4%;
+  font-size: 120%;
+  color: white;
+  background-color: #365e7d;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 2% 4%;
 }
+
 .title {
-	float: left;
-	width: 35%;
-	text-align: center;}
+  float: left;
+  width: 35%;
+  text-align: center;
+}
+
 label {
   color: white;
-	margin: auto;}
+  margin: auto;
+}
+
 span {
-	color: white;
-	margin: auto;}
+  color: white;
+  margin: auto;
+}
+
 input[type ="text"] {
-	width: 50%;
+  width: 50%;
 }
+
 textarea {
-	height: 100px;
-	width: 50%;
-	vertical-align: text-top;
-	resize: none;}
+  height: 100px;
+  width: 50%;
+  vertical-align: text-top;
+  resize: none;
+}
+
 .submit {
-	padding-top: 3%;
-	text-align: right;
+  padding-top: 3%;
+  text-align: right;
 }
+
 #submit {
-	border-bottom: 2px solid #b2b2b2;
-	border-width: 5px;
-	border-radius: 2px;
-	border-color: #94a4b8;
-	background-color: #365e7d;
-	color: white;
-	font-size: 125%;
+  border-bottom: 2px solid #b2b2b2;
+  border-width: 5px;
+  border-radius: 2px;
+  border-color: #94a4b8;
+  background-color: #365e7d;
+  color: white;
+  font-size: 125%;
 }
-#submit:hover, #submit:focus {
-	background-color: lightblue;
-  color:#365e7d;
+
+#submit:hover,
+#submit:focus {
+  background-color: lightblue;
+  color: #365e7d;
 }
