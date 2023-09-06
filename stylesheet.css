@@ -65,11 +65,11 @@ a:hover, a:focus {
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
   justify-content: space-around;
-  margin: 0 0 1% 1%;
+  margin-bottom: 1%;
 }
 #ommig {
   background-color: #365e7d;
-  padding: 1%;
+  padding: 2%;
   flex-basis: 60%;
   max-width: 100%;
 }  
@@ -99,7 +99,7 @@ a:hover, a:focus {
 }
 #styrkorbox {
     flex-basis: 40%;
-    margin: auto;
+    margin: 0;
     padding: 2%;
     background-color: #365e7d;
     text-align: left;
@@ -156,4 +156,81 @@ footer {
   -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
   justify-content: space-around;
+}
+#contactflex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  background-color: #365e7d;
+  margin-bottom: 1%;
+}
+#contacthead {
+  margin-bottom: 1%;
+  background-color: #365e7d;
+  text-align: center;
+}
+#contactlist {
+  color: white;
+  list-style-type: none;
+  align-items: left;
+  width: 30%;
+}
+fieldset {
+  width: 100%;
+	margin: 3% 0 6% 0;
+	border: 3px solid black;
+	border-radius: 10px;
+	line-height: 1.6em; 
+	padding-top: 5%;
+}
+legend {
+	font-size: 120%;
+	color: white;
+	background-color: #365e7d;
+	border: 3px solid black; 
+	border-radius: 10px;
+	padding: 2% 4%;
+}
+.title {
+	float: left;
+	width: 35%;
+	text-align: center;}
+label {
+  color: white;
+	margin: auto;}
+span {
+	color: white;
+	margin: auto;}
+input[type ="text"] {
+	width: 50%;
+}
+textarea {
+	height: 100px;
+	width: 50%;
+	vertical-align: text-top;
+	resize: none;}
+.submit {
+	padding-top: 3%;
+	text-align: right;
+}
+#submit {
+	border-bottom: 2px solid #b2b2b2;
+	border-width: 5px;
+	border-radius: 2px;
+	border-color: #94a4b8;
+	background-color: #365e7d;
+	color: white;
+	font-size: 125%;
+}
+#submit:hover, #submit:focus {
+	background-color: lightblue;
+  color:#365e7d;
 }
