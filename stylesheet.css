@@ -188,6 +188,7 @@ footer {
   -ms-flex-pack: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  border-top: 5px solid #365e7d;
 }
 
 .interestsimages {
