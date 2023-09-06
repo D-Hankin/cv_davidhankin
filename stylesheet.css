@@ -44,6 +44,7 @@ h1 {
 }
 p {
     color: white;
+    font-size: 24px;
 }
 a:link, a:visited {
     color: white;
@@ -69,9 +70,11 @@ a:hover, a:focus {
 #ommig {
   background-color: #365e7d;
   padding: 1%;
-  width: 60%;
+  flex-basis: 60%;
+  max-width: 100%;
 }  
 #cvpicbox {
+  flex-basis: 35%;
   max-width: 100%;
   margin: auto;
   text-align: center;
@@ -95,7 +98,7 @@ a:hover, a:focus {
     text-align: center;
 }
 #styrkorbox {
-    width: 40%;
+    flex-basis: 40%;
     margin: auto;
     padding: 2%;
     background-color: #365e7d;
@@ -108,16 +111,27 @@ a:hover, a:focus {
 }
 .listitems {
     color: white;
+    font-size: large;
     width: 97%;
     text-align: left;
     padding-bottom: 1%;
 }
-.icons {
-    width: 100%;
+.iconsflex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 1%;
     background-color: #365e7d;
     text-align: center;
     margin: auto;
-    float: left;
 }
 #github {
     padding-right: 2%;
