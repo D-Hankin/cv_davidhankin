@@ -289,3 +289,50 @@ textarea {
   background-color: lightblue;
   color: #365e7d;
 }
+#historyflex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 1%;
+}
+
+#work,
+#education {
+  -webkit-flex-basis: 45%;
+  -ms-flex: 0 1 45%;
+  flex-basis: 45%;
+}
+
+#workhead,
+#educationhead {
+  background-color: #365e7d;
+  padding: 1%;
+}
+
+#educationhead {
+  text-align: right;
+}
+
+.workyear {
+  text-align: top;
+  padding-right: 1%;
+}
+
+#worktable,
+#educationtable {
+  background-color: #365e7d;
+  color: white;
+  text-align: left;
+  padding: 2% 0 1% 1%;
+}
+
+.tablesection {
+ border-bottom: 2px solid black;
+}
