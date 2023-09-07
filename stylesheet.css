@@ -91,6 +91,8 @@ a:focus {
   -webkit-flex-grow: 2;
   -ms-flex: 2;
   flex-grow: 2;
+  margin: auto;
+  min-width: 0;
 }
 
 #cvpicbox {
@@ -136,6 +138,7 @@ a:focus {
   -webkit-flex-grow: 2;
   -ms-flex: 2;
   flex-grow: 2;
+  min-width: 0;
 }
 
 #styrkorlist {
