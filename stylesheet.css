@@ -88,6 +88,10 @@ a:focus {
   -ms-flex: 0 1 60%;
   flex-basis: 60%;
   max-width: 100%;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex: 2;
+  flex-grow: 2;
 }
 
 #cvpicbox {
@@ -118,16 +122,21 @@ a:focus {
 #kodpicbox {
   margin: auto;
   text-align: center;
+  padding: 0 1% 0 1%;
 }
 
 #styrkorbox {
   -webkit-flex-basis: 40%;
   -ms-flex: 0 1 40%;
   flex-basis: 40%;
-  margin: 0;
+  margin: auto;
   padding: 2%;
   background-color: #365e7d;
   text-align: left;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex: 2;
+  flex-grow: 2;
 }
 
 #styrkorlist {
@@ -308,6 +317,18 @@ textarea {
   -webkit-flex-basis: 45%;
   -ms-flex: 0 1 45%;
   flex-basis: 45%;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex: 2;
+  flex-grow: 2;
+}
+
+#work {
+  padding-right:1%;
+}
+
+#education {
+  padding-left: 1%;
 }
 
 #workhead,
@@ -320,8 +341,9 @@ textarea {
   text-align: right;
 }
 
-.workyear {
-  text-align: top;
+.workyear, .educationyear {
+  font-size: 120%;
+  vertical-align: top;
   padding-right: 1%;
 }
 
@@ -333,6 +355,6 @@ textarea {
   padding: 2% 0 1% 1%;
 }
 
-.tablesection {
- border-bottom: 2px solid black;
+.worksubhead, .educationsubhead {
+  font-size: 120%;
 }
