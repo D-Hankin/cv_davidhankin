@@ -87,7 +87,6 @@ a:focus {
   -webkit-flex-basis: 60%;
   -ms-flex: 0 1 60%;
   flex-basis: 60%;
-  max-width: 100%;
   -webkit-box-flex: 2;
   -webkit-flex-grow: 2;
   -ms-flex: 2;
