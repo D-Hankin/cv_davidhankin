@@ -253,6 +253,11 @@ legend {
   padding: 2% 4%;
 }
 
+#obs {
+  font-size: 16px;
+  text-align: center;
+}
+
 .title {
   float: left;
   width: 35%;
